@@ -1,7 +1,16 @@
 @import "utils";
 @import "fonts";
 @import "typography";
+@import "header";
+@import "main-section";
+@import "footer";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 
 body {
-  background: $c-gray;
+  font-family: "Avenir-Book";
+  color: $main-c;
 }
