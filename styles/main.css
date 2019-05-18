@@ -161,7 +161,7 @@ main {
     border: 1px solid #e1e7ed;
     padding: 30px; }
     main .main-right-content .form .form-button {
-      background: #fD5c63;
+      background: #fd5c63;
       border-radius: 4px;
       color: #fff;
       font-size: 16px;
@@ -224,7 +224,7 @@ footer {
           box-sizing: border-box; }
 
 body {
-  font-family: "Avenir-Book";
+  font-family: "Avenir-Book", sans-serif;
   color: #3d4e61; }
 
 /*# sourceMappingURL=main.css.map */
