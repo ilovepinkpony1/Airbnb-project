@@ -1,66 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="./styles/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <section class="header-logo">
-            <a href="#">
-              <img src="/images/Rectangle 2.png" alt="logo">
-            </a>
-          </section>
-        <section class="nav-ul">
-          <ul>
-            <a href="#"><li>Become a host</li></a>
-            <a href="#"><li>Trips</li></a>
-            <a href="#"><li>Messages</li></a>
-          </ul>
-            <img class="nav-person_img" src="/images/Ellipse.jpg" alt="person">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="./styles/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+</head>
+<body>
+<header>
+  <nav>
+    <section class="header-logo">
+      <a href="#">
+        <img src="/images/Rectangle 2.png" alt="logo">
+      </a>
+    </section>
+    <section class="nav-ul">
+      <ul>
+        <a href="#"><li>Become a host</li></a>
+        <a href="#"><li>Trips</li></a>
+        <a href="#"><li>Messages</li></a>
+      </ul>
+      <img class="nav-person_img" src="/images/Ellipse.jpg" alt="person">
+    </section>
+  </nav>
+  <section class="main-img">
+      <img src="/images/Image.png" alt="panoram">
+  </section>
+</header>
+
+<main>
+
+<section class="left-content">
+  <h1>Quiet apartment</h1>
+  <p class="grey-text">Entire apartment</p>
+  <section class="rooms">
+    <p>4 guests</p>
+    <p>1 bed</p>
+    <p>1 bath</p>
+  </section>
+
+  <section class="apartment-text-main">
+    <p>
+      City Apartment is newly renovated in the heart of Budapest,
+      right in the city center. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Nulla doloremque, veniam mollitia dolorem ipsa assumenda accusamus, similique culpa asperiores sed et beatae?
+      Laboriosam assumenda quisquam iusto dolorum numquam consequuntur perferendis.
+    </p>
+  </section>
+  <section class="big-anchor">
+    <a href="#">Contact host</a>
+  </section>
+
+  <section class="comentaries">
+    <h2 class="reviews">
+      Reviews
+    </h2>
+
+    <section class="comment">
+      <section class="comment-upper">
+        <section class="avatar">
+          <img src="images/Ellipse-grey.png" alt="avatar">
         </section>
-      </nav>
-      <section class="main-img">
-          <img src="/images/Image.png" alt="panoram">
-      </section>
-    </header>
-
-    <main>
-
-  <section class="left-content">
-    <h1>Quiet apartment</h1>
-    <p class="grey-text">Entire apartment</p>
-    <section class="rooms">
-      <p>4 guests</p>
-      <p>1 bed</p>
-      <p>1 bath</p>
+        <section class="name-time">
+          <p>John</p>
+          <p>September 2016</p>
+        </section>
     </section>
 
-    <section class="apartment-text-main">
+    <section class="comment-down">
       <p>
-        City Apartment is newly renovated in the heart of Budapest,
-        right in the city center. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Nulla doloremque, veniam mollitia dolorem ipsa assumenda accusamus, similique culpa asperiores sed et beatae?
-        Laboriosam assumenda quisquam iusto dolorum numquam consequuntur perferendis.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Mollitia eum qui iure dolores quae minima non tenetur architecto corporis!
+        Perspiciatis, quos laudantium? Nisi, cum culpa cupiditate architecto unde repudiandae reprehenderit.
       </p>
     </section>
-    <section class="big-anchor">
-      <a href="#">Contact host</a>
     </section>
 
-    <section class="comentaries">
-      <h2 class="reviews">
-          Reviews
-        </h2>
-
-      <section class="comment">
-        <section class="comment-upper">
+    <section class="comment">
+      <section class="comment-upper">
           <section class="avatar">
-              <img src="images/Ellipse-grey.png" alt="avatar">
-            </section>
+            <img src="images/Ellipse-grey.png" alt="avatar">
+          </section>
             <section class="name-time">
               <p>John</p>
               <p>September 2016</p>
@@ -70,85 +90,69 @@
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Mollitia eum qui iure dolores quae minima non tenetur architecto corporis!
-            Perspiciatis, quos laudantium? Nisi, cum culpa cupiditate architecto unde repudiandae reprehenderit.
           </p>
         </section>
-      </section>
+    </section>
+  </section>
 
-      <section class="comment">
-        <section class="comment-upper">
-            <section class="avatar">
-                <img src="images/Ellipse-grey.png" alt="avatar">
-              </section>
-              <section class="name-time">
-                <p>John</p>
-                <p>September 2016</p>
-            </section>
+  <section class="host">
+    <h2>
+      Hosted by Jane
+    </h2>
+    <p class="country">
+      Budapest, Hungary
+    </p>
+    <p class="host-description">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Iure harum libero laudantium, architecto, voluptatum fugiat deleniti aspernatur doloremque modi.
+    </p>
+    <button class="host-button">
+      Contact Host
+    </button>
+  </section>
+</section>
+
+    <section class="main-right-content">
+        <section class="form">
+            <p>25$ per night</p>
+            <form action="GET">
+              <label><input type="text" placeholder="Date"></label>
+              <label><input type="text" placeholder="Guests"></label>
+            </form>
+            <button class="form-button">Book</button>
           </section>
-          <section class="comment-down">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Mollitia eum qui iure dolores quae minima non tenetur architecto corporis!
-            </p>
-          </section>
-      </section>
     </section>
+  </main>
 
-    <section class="host">
-      <h2>
-        Hosted by Jane
-      </h2>
-      <p class="country">
-        Budapest, Hungary
-      </p>
-      <p class="host-description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Iure harum libero laudantium, architecto, voluptatum fugiat deleniti aspernatur doloremque modi.
-      </p>
-      <button class="host-button">
-        Contact Host
-      </button>
-    </section>
+<footer>
+
+<section class="about-column">
+  <ul>
+    <li>Airbnb</li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Press</a></li>
+    <li><a href="#">Help</a></li>
+  </ul>
+</section>
+<section class="about-column">
+  <ul>
+    <li>Discover</li>
+    <li><a href="#">Travel credit</a></li>
+    <li><a href="#">Business</a></li>
+    <li><a href="#">Guidebooks</a></li>
+  </ul>
+</section>
+<section class="about-column">
+  <ul>
+    <li>Hosting</li>
+    <li><a href="#">Why host</a></li>
+    <li><a href="#">Hospitaly</a></li>
+    <li><a href="#">Community</a></li>
+  </ul>
   </section>
 
-      <section class="main-right-content">
-          <section class="form">
-              <p>25$ per night</p>
-              <form action="GET">
-                <label><input type="text" placeholder="Date"></label>
-                <label><input type="text" placeholder="Guests"></label>
-              </form>
-              <button class="form-button">Book</button>
-            </section>
-      </section>
-    </main>
-
-    <footer>
-  <section class="about-column">
-    <ul>
-      <li>Airbnb</li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Press</a></li>
-      <li><a href="#">Help</a></li>
-    </ul>
-  </section>
-  <section class="about-column">
-    <ul>
-      <li>Discover</li>
-      <li><a href="#">Travel credit</a></li>
-      <li><a href="#">Business</a></li>
-      <li><a href="#">Guidebooks</a></li>
-    </ul>
-  </section>
-  <section class="about-column">
-    <ul>
-      <li>Hosting</li>
-      <li><a href="#">Why host</a></li>
-      <li><a href="#">Hospitaly</a></li>
-      <li><a href="#">Community</a></li>
-    </ul>
-    </section>
 </footer>
-    <script type="text/javascript" src="scripts/main.js"></script>
-  </body>
+
+<script type="text/javascript" src="scripts/main.js"></script>
+</body>
 </html>
