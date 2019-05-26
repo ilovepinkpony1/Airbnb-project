@@ -3,36 +3,36 @@ footer {
   justify-content: space-between;
   width: 900px;
   margin: 0 auto;
-  
-  .about-column {
-    margin: 44px 0;
+}
 
-    ul {
-      list-style: none;
-      padding: 0;
-      li {
-        margin-bottom: 12px;
-        a {
-          text-decoration: none;
-          color: $main-c;
-          outline: none;
-        }
-      }
+.about-column {
+  margin: 44px 0;
 
-      li:first-child {
-        margin-bottom: 20px;
-        font-size: 16px;
-        line-height: 19px;
-        font-weight: bold;
-      }
-
-      li:last-child {
-        margin-bottom: 0;
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      margin-bottom: 12px;
+      a {
+        text-decoration: none;
+        color: $main-c;
+        outline: none;
       }
     }
-  }
 
-  .about-column:last-child {
-    margin-right: 100px;
+    li:first-child {
+      margin-bottom: 20px;
+      font-size: 16px;
+      line-height: 19px;
+      font-weight: bold;
+    }
+
+    li:last-child {
+      margin-bottom: 0;
+    }
   }
+}
+
+.about-column:last-child {
+  margin-right: 100px;
 }

@@ -7,163 +7,158 @@ main {
   p {
     text-align: justify;
   }
+}
 
-  .left-content {
-    margin-right: 80px;
+.left-content {
+  margin-right: 80px;
 
-    h1 {
-      font-size: 36px;
-      line-height: 42px;
-    }
+  h1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
 
-    .grey-text {
-      margin-top: 15px;
-      color: #687c94;
-      font-size: 16px;
-      line-height: 19px;
-    }
+.grey-text {
+  margin-top: 15px;
+  color: #687c94;
+  font-size: 16px;
+  line-height: 19px;
+}
 
-    .rooms {
-      display: flex;
-      margin-top: 20px;
+.rooms {
+  display: flex;
+  margin-top: 20px;
 
-      p {
-        margin-right: 20px;
-        font-size: 16px;
-        line-height: 19px;
-      }
-    }
+  p {
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
 
-    .apartment-text-main {
-      margin-top: 40px;
-      margin-bottom: 30px;
-    }
+.apartment-text-main {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
 
-    .big-anchor {
+.big-anchor {
 
-      a {
-        font-size: 16px;
-        line-height: 19px;
-        text-decoration: none;
-        outline: none;
-        color: $main-c;
-        font-weight: bold;
-      }
-    }
+  a {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    outline: none;
+    color: $main-c;
+    font-weight: bold;
+  }
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+
+  p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  
+  .avatar {
+    margin-right: 21px;
+  }
+}
+
+.form {
+  border-radius: 3px;
+  border: 1px solid #e1e7ed;
+  padding: 30px;
+
+  p {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 40px;
   }
 
-  .comentaries {
-
-    .reviews {
-      font-size: 28px;
-      line-height: 33px;
-      font-weight: 600;
-      margin-top: 70px;
-    }
-
-    .comment {
-      display: flex;
-      flex-direction: column;
-      margin-top: 30px;
-
-      .comment-upper {
-        display: flex;
-      }
-      .comment-down {
-        margin-top: 24px;
-      }
-
-      p {
-        font-size: 16px;
-        line-height: 19px;
-      }
-      
-      .avatar {
-        margin-right: 21px;
-      }
-
-      .name-time {
-
-        p:first-child {
-          font-weight: bold;
-          margin-bottom: 10px;
-        }
-      }
-
-    }
+  input {
+    border: 1px solid #e1e7ed;
+    border-radius: 3px;
+    width: 270px;
+    padding: 14px 0 14px 17px;
+    outline: none;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    color: $main-c;
   }
+}
 
-  .host {
+.name-time {
 
-    h2 {
-      margin-top: 100px;
-      font-family: "Roboto", Arial, Helvetica, sans-serif;
-      font-weight: bold;
-      font-size: 28px;
-      line-height: 33px;
-    }
-
-    .country {
-      margin-top: 14px;
-      font-size: 14px;
-      line-height: 16px;
-    }
-
-    .host-description {
-      margin-top: 20px;
-      font-size: 16px;
-      line-height: 19px;
-    }
-
-    .host-button {
-      background-color: #fff;
-      color: #118488;
-      border-radius: 4px;
-      border: 1px solid #118488;
-      padding: 15px 24px;
-      outline: none;
-      cursor: pointer;
-      margin-top: 30px;
-    }
+  p:first-child {
+    font-weight: bold;
+    margin-bottom: 10px;
   }
+}
 
-  .main-right-content {
-    .form {
-      border-radius: 3px;
-      border: 1px solid #e1e7ed;
-      padding: 30px;
+.comment-upper {
+  display: flex;
+}
 
-      .form-button {
-        background: #fD5c63;
-        border-radius: 4px;
-        color: #fff;
-        font-size: 16px;
-        line-height: 19px;
-        text-align: center;
-        padding: 15px;
-        width: 270px;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        margin: 8px 0;
-      }
+.comment-down {
+  margin-top: 24px;
+}
 
-      p {
-        font-size: 16px;
-        line-height: 19px;
-        margin-bottom: 40px;
-      }
+.reviews {
+  font-size: 28px;
+  line-height: 33px;
+  font-weight: 600;
+  margin-top: 70px;
+}
 
-      input {
-        border: 1px solid #e1e7ed;
-        border-radius: 3px;
-        width: 270px;
-        padding: 14px 0 14px 17px;
-        outline: none;
-        margin-bottom: 16px;
-        box-sizing: border-box;
-        color: $main-c;
-      }
-    }
+.host {
+
+  h2 {
+    margin-top: 100px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
   }
+}
+
+.country {
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.host-description {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.host-button {
+  background-color: #fff;
+  color: #118488;
+  border-radius: 4px;
+  border: 1px solid #118488;
+  padding: 15px 24px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.form-button {
+  background: #fd5c63;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  padding: 15px;
+  width: 270px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 8px 0;
 }
